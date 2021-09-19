@@ -1,0 +1,18 @@
+<p>One-way from data source to view target</p>
+<p>
+    <input value="{{ bindingVarInterpolation }}">
+</p>
+<p>
+    <input [value]="bindingVarAttribute"><br>
+</p>
+<p>
+    <input (input)="onChange()" value="Event binding. Type here and look into console" size="50"><br>
+</p>
+<p>
+    <button (click)="onClick()">Click me... and look into Console</button>
+</p>
+
+<p>Two-way binding: <br><b>{{ twoWayBinding }}</b></p>
+<input [(ngModel)]="twoWayBinding" size="50">
+
+

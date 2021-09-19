@@ -7,6 +7,8 @@ import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
 import { HookComponent } from './components/lifecycle/hook/hook.component';
 import { MetadataComponent } from './components/metadata/metadata.component';
 import { ChangeDetectionStrategyComponent } from './components/metadata/change-detection-strategy/change-detection-strategy.component';
+import { DatabindingComponent } from './components/databinding/databinding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,10 +17,12 @@ import { ChangeDetectionStrategyComponent } from './components/metadata/change-d
     LifecycleComponent,
     HookComponent,
     MetadataComponent,
-    ChangeDetectionStrategyComponent
+    ChangeDetectionStrategyComponent,
+    DatabindingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
