@@ -1,6 +1,7 @@
 <ul>
-  <li>Simple Component</li>
-  <li>LifeCycle Hooks</li>
+  <li (click)='selectedItem = "Simple Component"'>Simple Component</li>
+  <li (click)='selectedItem = "LifeCycle Hooks"'>LifeCycle Hooks</li>
 </ul>
 
-<app-lifecycle></app-lifecycle>
+<app-simple *ngIf='selectedItem == "Simple Component"' ></app-simple>
+<app-lifecycle *ngIf='selectedItem == "LifeCycle Hooks"' ></app-lifecycle>

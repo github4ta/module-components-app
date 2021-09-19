@@ -12,5 +12,6 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppComponent {
+  public selectedItem: String = "";
   title = 'Module Components';
 }
