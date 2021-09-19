@@ -1,0 +1,9 @@
+<app-person (onDelete)="onDelete(person.id)" *ngFor="let person of persons" [person]="person"></app-person>
+<br>
+<div>
+    <form>
+        <input placeholder="Id" [(ngModel)]="newPerson.id" name="Id"><br>
+        <input placeholder="Name" [(ngModel)]="newPerson.name" name="Name"><br>
+        <button (click)="add()">Add New Person</button>
+    </form>
+</div>

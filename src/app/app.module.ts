@@ -9,6 +9,8 @@ import { MetadataComponent } from './components/metadata/metadata.component';
 import { ChangeDetectionStrategyComponent } from './components/metadata/change-detection-strategy/change-detection-strategy.component';
 import { DatabindingComponent } from './components/databinding/databinding.component';
 import { FormsModule } from '@angular/forms';
+import { InputoutputComponent } from './components/inputoutput/inputoutput.component';
+import { PersonComponent } from './components/inputoutput/person/person.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { FormsModule } from '@angular/forms';
     HookComponent,
     MetadataComponent,
     ChangeDetectionStrategyComponent,
-    DatabindingComponent
+    DatabindingComponent,
+    InputoutputComponent,
+    PersonComponent
   ],
   imports: [
     BrowserModule,
