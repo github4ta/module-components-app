@@ -1,7 +1,9 @@
 <ul>
   <li (click)='selectedItem = "Simple Component"'>Simple Component</li>
   <li (click)='selectedItem = "LifeCycle Hooks"'>LifeCycle Hooks</li>
+  <li (click)='selectedItem = "Test With Metadata"'>Test With Metadata</li>
 </ul>
 
 <app-simple *ngIf='selectedItem == "Simple Component"' ></app-simple>
 <app-lifecycle *ngIf='selectedItem == "LifeCycle Hooks"' ></app-lifecycle>
+<app-metadata *ngIf='selectedItem == "Test With Metadata"' ></app-metadata>
