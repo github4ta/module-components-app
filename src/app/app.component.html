@@ -5,6 +5,7 @@
   <li (click)='selectedItem = "DataBinding Test"'>DataBinding Test</li>
   <li (click)='selectedItem = "InputOutput Test"'>InputOutput Test</li>
   <li (click)='selectedItem = "ViewChild Test"'>ViewChild Test</li>
+  <li (click)='selectedItem = "Base for component Test"'>Base for component Test</li>
 </ul>
 
 <app-simple *ngIf='selectedItem == "Simple Component"' ></app-simple>
@@ -13,3 +14,4 @@
 <app-databinding *ngIf='selectedItem == "DataBinding Test"' ></app-databinding>
 <app-inputoutput *ngIf='selectedItem == "InputOutput Test"' ></app-inputoutput>
 <app-viewchild *ngIf='selectedItem == "ViewChild Test"' ></app-viewchild>
+<app-base-test *ngIf='selectedItem == "Base for component Test"' ></app-base-test>

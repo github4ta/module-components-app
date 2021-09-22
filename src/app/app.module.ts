@@ -13,6 +13,7 @@ import { InputoutputComponent } from './components/inputoutput/inputoutput.compo
 import { PersonComponent } from './components/inputoutput/person/person.component';
 import { ViewchildComponent } from './components/viewchild/viewchild.component';
 import { ChildComponent } from './components/viewchild/child/child.component';
+import { BaseTestComponent } from './components/base-test/base-test.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ChildComponent } from './components/viewchild/child/child.component';
     InputoutputComponent,
     PersonComponent,
     ViewchildComponent,
-    ChildComponent
+    ChildComponent,
+    BaseTestComponent
   ],
   imports: [
     BrowserModule,
