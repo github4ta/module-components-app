@@ -11,6 +11,8 @@ import { DatabindingComponent } from './components/databinding/databinding.compo
 import { FormsModule } from '@angular/forms';
 import { InputoutputComponent } from './components/inputoutput/inputoutput.component';
 import { PersonComponent } from './components/inputoutput/person/person.component';
+import { ViewchildComponent } from './components/viewchild/viewchild.component';
+import { ChildComponent } from './components/viewchild/child/child.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { PersonComponent } from './components/inputoutput/person/person.componen
     ChangeDetectionStrategyComponent,
     DatabindingComponent,
     InputoutputComponent,
-    PersonComponent
+    PersonComponent,
+    ViewchildComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

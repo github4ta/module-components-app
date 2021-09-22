@@ -1,0 +1,9 @@
+<p #pviewchild>child works!</p>
+
+<ng-container [ngTemplateOutlet]="template"></ng-container>
+<ng-content></ng-content>
+<ng-container [ngTemplateOutlet]="template"></ng-container>
+
+<ng-template #template>
+    <div>NgTemplate Test</div>
+</ng-template>

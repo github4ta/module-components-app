@@ -4,6 +4,7 @@
   <li (click)='selectedItem = "Test With Metadata"'>Test With Metadata</li>
   <li (click)='selectedItem = "DataBinding Test"'>DataBinding Test</li>
   <li (click)='selectedItem = "InputOutput Test"'>InputOutput Test</li>
+  <li (click)='selectedItem = "ViewChild Test"'>ViewChild Test</li>
 </ul>
 
 <app-simple *ngIf='selectedItem == "Simple Component"' ></app-simple>
@@ -11,3 +12,4 @@
 <app-metadata *ngIf='selectedItem == "Test With Metadata"' ></app-metadata>
 <app-databinding *ngIf='selectedItem == "DataBinding Test"' ></app-databinding>
 <app-inputoutput *ngIf='selectedItem == "InputOutput Test"' ></app-inputoutput>
+<app-viewchild *ngIf='selectedItem == "ViewChild Test"' ></app-viewchild>
